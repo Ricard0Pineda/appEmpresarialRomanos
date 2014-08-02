@@ -37,7 +37,7 @@ public class ConversorRomanosTest {
     @Test
     public void noVRepetidas() {
         boolean b = cv.noVLDRepetidas("XVV");
-        assertEquals(false, b);
+        assertEquals(true, b);
     }
     
     /**
